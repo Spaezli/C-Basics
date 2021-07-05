@@ -11,7 +11,7 @@ int someFunction(int test){
 
 
 int main(int argc, char** argv){
-	printf("Hi");
+	printf("Hi ");
 	int out = someFunction(1);
-	printf("%d",out);
+	printf("%d\n",out);
 }

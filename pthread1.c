@@ -27,14 +27,11 @@ void yourturn(){
 
 int main(int argc, char** argv){
 
-	printf("Hi");
+	printf("***** Ctrl + C => Candel Job *****\n");
 
 	pthread_t newthread;
 
 	pthread_create(&newthread, NULL,myturn,NULL);
 
 	yourturn();
-
-	
-
 }

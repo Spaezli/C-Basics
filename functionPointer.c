@@ -12,8 +12,6 @@ int add(int a, int b){
 }
 
 
-
-
 int main(int argc, char** argv){
 
 	printf("standard function: %d\n",add(5,6));
@@ -24,7 +22,5 @@ int main(int argc, char** argv){
 	typedef int (*addition_func)(int, int);
 	addition_func plusa = add;
 	printf("with function pointer as its own type: %d\n",plusa(3,3));
-	
-
 
 }

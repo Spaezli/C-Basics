@@ -6,6 +6,8 @@
 
 //source: https://www.youtube.com/watch?v=uA8X5zNOGw8
 
+
+
 void* myturn(void * arg){
 	for (size_t i = 0; i < 8; i++)
 	{

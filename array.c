@@ -24,20 +24,7 @@ int main(int argc, char** argv){
 	int size = 10;
 	int* array = NULL;
 
-	
 	initArray(&array,size);
-
-	
-	// array = (int*) malloc(sizeof(int)*size);
-	// if (array==NULL) {printf("failed");
-	// }else{
-	// 	printf("sucess");
-	// }
-	// for (int i = 0; i < size; i++)
-	// {
-	// 	array[i]=i;
-	// }
-
 	
 	for (int i = 0; i < size; i++)
 	{
